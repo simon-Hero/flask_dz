@@ -1,0 +1,333 @@
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 13:48:38] "PUT /api/order/payment HTTP/1.1" 200 -
+INFO _internal.py:122  * Detected change in 'D:\\Program Files (x86)\\网盘文件\\网盘下载文件\\全部总结\\python\\flask_dz\\dz\\v_1_0\\orders.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 126-065-896
+INFO _internal.py:122  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 13:49:54] "PUT /api/order/payment HTTP/1.1" 200 -
+INFO _internal.py:122  * Detected change in 'D:\\Program Files (x86)\\网盘文件\\网盘下载文件\\全部总结\\python\\flask_dz\\dz\\v_1_0\\orders.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 126-065-896
+INFO _internal.py:122  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 13:50:56] "PUT /api/order/payment HTTP/1.1" 200 -
+INFO _internal.py:122  * Detected change in 'D:\\Program Files (x86)\\网盘文件\\网盘下载文件\\全部总结\\python\\flask_dz\\dz\\v_1_0\\orders.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 126-065-896
+INFO _internal.py:122  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO _internal.py:122  * Detected change in 'D:\\Program Files (x86)\\网盘文件\\网盘下载文件\\全部总结\\python\\flask_dz\\dz\\v_1_0\\orders.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 126-065-896
+INFO _internal.py:122  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 13:54:11] "PUT /api/order/payment HTTP/1.1" 200 -
+INFO _internal.py:122  * Detected change in 'D:\\Program Files (x86)\\网盘文件\\网盘下载文件\\全部总结\\python\\flask_dz\\dz\\v_1_0\\orders.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 126-065-896
+INFO _internal.py:122  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 13:54:41] "PUT /api/order/payment HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 13:54:58] "GET /orders.html HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 13:54:59] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 13:54:59] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 13:54:59] "GET /static/css/reset.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 13:54:59] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 13:54:59] "GET /static/css/dz/main.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 13:54:59] "GET /static/css/dz/orders.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 13:54:59] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 13:54:59] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 13:54:59] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 13:54:59] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 13:54:59] "GET /static/js/template.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 13:54:59] "GET /static/js/dz/orders.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 13:54:59] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 13:54:59] "GET /api/orders?role=custom HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 13:54:59] "GET /api/user/show/20fde329-ea37-4da4-bae2-1d913b86c2fe.jpg HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 13:54:59] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:122  * Detected change in 'D:\\Program Files (x86)\\网盘文件\\网盘下载文件\\全部总结\\python\\flask_dz\\dz\\v_1_0\\orders.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 126-065-896
+INFO _internal.py:122  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 13:57:11] "GET /orders.html HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 13:57:11] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 13:57:11] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 13:57:11] "GET /static/css/reset.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 13:57:11] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 13:57:11] "GET /static/css/dz/main.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 13:57:11] "GET /static/css/dz/orders.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 13:57:11] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 13:57:11] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 13:57:11] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 13:57:11] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 13:57:11] "GET /static/js/template.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 13:57:11] "GET /static/js/dz/orders.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 13:57:11] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 13:57:11] "GET /api/orders?role=custom HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 13:57:11] "GET /api/user/show/20fde329-ea37-4da4-bae2-1d913b86c2fe.jpg HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 13:57:11] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 13:57:27] "GET /orders.html HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 13:57:27] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 13:57:27] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 13:57:27] "GET /static/css/reset.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 13:57:27] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 13:57:27] "GET /static/css/dz/main.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 13:57:27] "GET /static/css/dz/orders.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 13:57:27] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 13:57:27] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 13:57:27] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 13:57:27] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 13:57:27] "GET /static/js/template.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 13:57:27] "GET /static/js/dz/orders.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 13:57:28] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 13:57:28] "GET /api/orders?role=custom HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 13:57:28] "GET /api/user/show/20fde329-ea37-4da4-bae2-1d913b86c2fe.jpg HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 13:57:28] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 13:59:24] "GET /orders.html HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 13:59:24] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 13:59:24] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 13:59:24] "GET /static/css/reset.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 13:59:24] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 13:59:24] "GET /static/css/dz/main.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 13:59:24] "GET /static/css/dz/orders.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 13:59:24] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 13:59:24] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 13:59:24] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 13:59:24] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 13:59:24] "GET /static/js/template.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 13:59:24] "GET /static/js/dz/orders.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 13:59:24] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 13:59:25] "GET /api/orders?role=custom HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 13:59:25] "GET /api/user/show/20fde329-ea37-4da4-bae2-1d913b86c2fe.jpg HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 13:59:25] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 126-065-896
+INFO _internal.py:122  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 13:59:43] "GET /orders.html HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 13:59:43] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 13:59:43] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 13:59:43] "GET /static/css/reset.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 13:59:43] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 13:59:43] "GET /static/css/dz/main.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 13:59:43] "GET /static/css/dz/orders.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 13:59:43] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 13:59:43] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 13:59:43] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 13:59:43] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 13:59:43] "GET /static/js/template.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 13:59:43] "GET /static/js/dz/orders.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 13:59:43] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 13:59:43] "GET /api/orders?role=custom HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 13:59:43] "GET /api/user/show/20fde329-ea37-4da4-bae2-1d913b86c2fe.jpg HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 13:59:43] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:00:46] "GET /orders.html HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:00:47] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:00:47] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:00:47] "GET /static/css/reset.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:00:47] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:00:47] "GET /static/css/dz/main.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:00:47] "GET /static/css/dz/orders.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:00:47] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:00:47] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:00:47] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:00:47] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:00:47] "GET /static/js/template.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:00:47] "GET /static/js/dz/orders.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:00:47] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:00:47] "GET /api/orders?role=custom HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:00:47] "GET /api/user/show/20fde329-ea37-4da4-bae2-1d913b86c2fe.jpg HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:00:47] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:01:16] "GET /orders.html HTTP/1.1" 304 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:01:16] "GET /api/orders?role=custom HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:01:16] "GET /api/user/show/20fde329-ea37-4da4-bae2-1d913b86c2fe.jpg HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:01:16] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:01:42] "GET /orders.html HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:01:42] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:01:42] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:01:42] "GET /static/css/reset.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:01:42] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:01:42] "GET /static/css/dz/main.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:01:42] "GET /static/css/dz/orders.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:01:42] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:01:42] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:01:42] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:01:43] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:01:43] "GET /static/js/template.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:01:43] "GET /static/js/dz/orders.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:01:43] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:01:43] "GET /api/orders?role=custom HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:01:43] "GET /api/user/show/20fde329-ea37-4da4-bae2-1d913b86c2fe.jpg HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:01:43] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:02:34] "GET /orders.html HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:02:34] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:02:34] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:02:34] "GET /static/css/reset.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:02:34] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:02:34] "GET /static/css/dz/main.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:02:34] "GET /static/css/dz/orders.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:02:34] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:02:34] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:02:34] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:02:34] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:02:34] "GET /static/js/template.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:02:34] "GET /static/js/dz/orders.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:02:34] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:02:34] "GET /api/orders?role=custom HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:02:34] "GET /api/user/show/20fde329-ea37-4da4-bae2-1d913b86c2fe.jpg HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:02:35] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:02:50] "PUT /api/orders/1/comment HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:03:33] "GET /my.html HTTP/1.1" 304 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:03:33] "GET /static/css/dz/my.css HTTP/1.1" 304 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:03:33] "GET /static/js/dz/my.js HTTP/1.1" 304 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:03:33] "GET /api/user/info HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:03:34] "GET /api/orders?role=custom HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:03:34] "GET /api/user/show/20fde329-ea37-4da4-bae2-1d913b86c2fe.jpg HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:03:38] "GET /api/user/info HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:03:39] "GET /auth.html HTTP/1.1" 304 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:03:39] "GET /static/css/dz/profile.css HTTP/1.1" 304 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:03:39] "GET /static/js/jquery.form.min.js HTTP/1.1" 304 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:03:39] "GET /static/js/dz/auth.js HTTP/1.1" 304 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:03:40] "GET /api/users/auth HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:03:41] "GET /api/user/info HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:03:42] "GET /myhouse.html HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:03:42] "GET /static/css/dz/myhouse.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:03:42] "GET /static/js/dz/myhouse.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:03:42] "GET /api/users/auth HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:03:42] "GET /api/user/houses HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:03:42] "GET /api/user/show/a89c7213-8d6a-4079-a2a8-3bdb4e2b85d6.jpg HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:03:42] "GET /api/user/show/48688ca2-185a-4a11-81dc-398c71aaa099.jpg HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:03:44] "GET /api/user/info HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:03:46] "GET /lorders.html HTTP/1.1" 304 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:03:46] "GET /static/js/dz/lorders.js HTTP/1.1" 304 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:03:46] "GET /api/orders?role=landlord HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:03:46] "GET /api/user/show/48688ca2-185a-4a11-81dc-398c71aaa099.jpg HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:03:55] "PUT /api/orders/3/status HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:08:42] "GET /lorders.html HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:08:42] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:08:42] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:08:42] "GET /static/css/reset.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:08:42] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:08:42] "GET /static/css/dz/main.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:08:42] "GET /static/css/dz/orders.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:08:42] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:08:43] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:08:43] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:08:43] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:08:43] "GET /static/js/template.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:08:43] "GET /static/js/dz/lorders.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:08:43] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:08:43] "GET /api/orders?role=landlord HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:08:43] "GET /api/user/show/48688ca2-185a-4a11-81dc-398c71aaa099.jpg HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:08:43] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:09:37] "GET /lorders.html HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:09:37] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:09:37] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:09:37] "GET /static/css/reset.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:09:37] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:09:37] "GET /static/css/dz/main.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:09:37] "GET /static/css/dz/orders.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:09:37] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:09:37] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:09:37] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:09:37] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:09:37] "GET /static/js/template.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:09:37] "GET /static/js/dz/lorders.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:09:37] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:09:37] "GET /api/orders?role=landlord HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:09:37] "GET /api/user/show/48688ca2-185a-4a11-81dc-398c71aaa099.jpg HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:09:38] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:09:41] "PUT /api/orders/undefined/status HTTP/1.1" 405 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:13:20] "GET /lorders.html HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:13:20] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:13:20] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:13:20] "GET /static/css/reset.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:13:20] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:13:20] "GET /static/css/dz/main.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:13:20] "GET /static/css/dz/orders.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:13:20] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:13:20] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:13:20] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:13:20] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:13:20] "GET /static/js/template.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:13:20] "GET /static/js/dz/lorders.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:13:20] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:13:20] "GET /api/orders?role=landlord HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:13:20] "GET /api/user/show/48688ca2-185a-4a11-81dc-398c71aaa099.jpg HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:13:21] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:13:29] "PUT /api/orders/2/status HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:18:14] "GET /lorders.html HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:18:14] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:18:14] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:18:14] "GET /static/css/reset.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:18:14] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:18:14] "GET /static/css/dz/main.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:18:14] "GET /static/css/dz/orders.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:18:14] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:18:14] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:18:14] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:18:14] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:18:14] "GET /static/js/template.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:18:14] "GET /static/js/dz/lorders.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:18:14] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:18:14] "GET /api/orders?role=landlord HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:18:14] "GET /api/user/show/48688ca2-185a-4a11-81dc-398c71aaa099.jpg HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:18:14] "GET /favicon.ico HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:18:19] "GET /api/user/info HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:18:21] "GET /api/orders?role=custom HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:18:21] "GET /api/user/show/20fde329-ea37-4da4-bae2-1d913b86c2fe.jpg HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:18:23] "GET /api/user/info HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:18:25] "GET /api/users/auth HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:18:25] "GET /api/user/houses HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:18:26] "GET /api/user/show/a89c7213-8d6a-4079-a2a8-3bdb4e2b85d6.jpg HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:18:26] "GET /api/user/show/48688ca2-185a-4a11-81dc-398c71aaa099.jpg HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:18:27] "GET /api/user/info HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:18:28] "GET / HTTP/1.1" 304 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:18:28] "GET /static/css/dz/index.css HTTP/1.1" 304 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:18:28] "GET /static/plugins/swiper/css/swiper.min.css HTTP/1.1" 304 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:18:28] "GET /static/images/logo@128x59.png HTTP/1.1" 304 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:18:28] "GET /static/plugins/swiper/js/swiper.jquery.min.js HTTP/1.1" 304 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:18:28] "GET /static/js/dz/index.js HTTP/1.1" 304 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:18:28] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:18:28] "GET /api/check HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:18:28] "GET /api/house/index HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:18:28] "GET /api/areas HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:18:28] "GET /api/user/show/a89c7213-8d6a-4079-a2a8-3bdb4e2b85d6.jpg HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:18:28] "GET /api/user/show/48688ca2-185a-4a11-81dc-398c71aaa099.jpg HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:18:28] "GET /api/user/show/20fde329-ea37-4da4-bae2-1d913b86c2fe.jpg HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:18:28] "GET /api/user/show/114bfe6d-2b43-4564-88b5-8500616dfeb0.jpg HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:18:28] "GET /api/user/show/a4ae85a7-5b4a-4e53-b5d0-8d412583bb71.jpg HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:18:36] "GET /search.html?aid=2&aname=&sd=&ed= HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:18:36] "GET /static/css/dz/search.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:18:36] "GET /static/js/dz/search.js HTTP/1.1" 200 -
+INFO index.py:21 redis have area info
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:18:36] "GET /api/areas HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:18:36] "GET /api/houses?aid=2&sd=&ed=&p=1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:18:39] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:18:39] "GET /api/check HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:18:39] "GET /api/house/index HTTP/1.1" 200 -
+INFO index.py:21 redis have area info
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:18:39] "GET /api/areas HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:18:39] "GET /api/user/show/20fde329-ea37-4da4-bae2-1d913b86c2fe.jpg HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:18:39] "GET /api/user/show/114bfe6d-2b43-4564-88b5-8500616dfeb0.jpg HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:18:39] "GET /api/user/show/a4ae85a7-5b4a-4e53-b5d0-8d412583bb71.jpg HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:18:39] "GET /api/user/show/a89c7213-8d6a-4079-a2a8-3bdb4e2b85d6.jpg HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:18:39] "GET /api/user/show/48688ca2-185a-4a11-81dc-398c71aaa099.jpg HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:18:43] "GET /search.html?aid=9&aname=&sd=&ed= HTTP/1.1" 200 -
+INFO index.py:21 redis have area info
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:18:43] "GET /api/areas HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:18:43] "GET /api/houses?aid=9&sd=&ed=&p=1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:18:44] "GET /api/user/show/48688ca2-185a-4a11-81dc-398c71aaa099.jpg HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:18:44] "GET /api/user/show/385c1192-dfc4-4a6a-8086-0a9181a69560.jpg HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:18:57] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:18:57] "GET /api/check HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:18:57] "GET /api/house/index HTTP/1.1" 200 -
+INFO index.py:21 redis have area info
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:18:57] "GET /api/areas HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:18:57] "GET /api/user/show/48688ca2-185a-4a11-81dc-398c71aaa099.jpg HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:18:57] "GET /api/user/show/20fde329-ea37-4da4-bae2-1d913b86c2fe.jpg HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:18:57] "GET /api/user/show/114bfe6d-2b43-4564-88b5-8500616dfeb0.jpg HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:18:57] "GET /api/user/show/a4ae85a7-5b4a-4e53-b5d0-8d412583bb71.jpg HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:18:57] "GET /api/user/show/a89c7213-8d6a-4079-a2a8-3bdb4e2b85d6.jpg HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [21/Jan/2020 14:19:24] "GET /api/user/info HTTP/1.1" 200 -

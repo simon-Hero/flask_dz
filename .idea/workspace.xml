@@ -1,0 +1,1167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4b9ad054-8c16-40ee-8536-23ef58d11bf7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/flask_dz.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/css/dz/booking.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/css/dz/detail.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/css/dz/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/css/dz/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/css/dz/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/css/dz/my.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/css/dz/myhouse.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/css/dz/newhouse.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/css/dz/orders.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/css/dz/profile.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/css/dz/register.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/css/dz/search.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/css/reset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/html/auth.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/html/booking.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/html/detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/html/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/html/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/html/lorders.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/html/my.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/html/myhouse.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/html/newhouse.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/html/orders.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/html/payComplete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/html/profile.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/html/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/html/search.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/images/home01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/images/home02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/images/home03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/images/houseicon_sprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/images/landlord01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/images/logo@128x59.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/js/dz/auth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/js/dz/booking.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/js/dz/detail.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/js/dz/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/js/dz/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/js/dz/lorders.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/js/dz/my.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/js/dz/myhouse.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/js/dz/newhouse.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/js/dz/orders.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/js/dz/profile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/js/dz/register.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/js/dz/search.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/js/jquery.blockui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/js/jquery.form.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/js/template.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.standalone.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.standalone.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.standalone.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/bootstrap-datepicker/css/bootstrap-datepicker3.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/bootstrap-datepicker/css/bootstrap-datepicker3.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/bootstrap-datepicker/css/bootstrap-datepicker3.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/bootstrap-datepicker/css/bootstrap-datepicker3.standalone.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/bootstrap-datepicker/css/bootstrap-datepicker3.standalone.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/bootstrap-datepicker/css/bootstrap-datepicker3.standalone.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.ar-tn.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.ar.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.az.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.bg.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.bs.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.ca.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.cs.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.cy.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.da.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.de.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.el.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.en-AU.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.en-GB.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.en-IE.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.en-NZ.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.en-ZA.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.eo.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.es.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.et.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.eu.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.fa.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.fi.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.fo.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.fr-CH.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.fr.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.gl.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.he.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.hr.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.hu.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.hy.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.id.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.is.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.it-CH.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.it.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.ja.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.ka.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.kh.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.kk.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.km.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.ko.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.kr.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.lt.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.lv.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.me.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.mk.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.mn.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.ms.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.nb.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.nl-BE.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.nl.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.no.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.pl.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.pt-BR.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.pt.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.ro.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.rs-latin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.rs.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.ru.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.sk.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.sl.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.sq.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.sr-latin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.sr.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.sv.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.sw.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.th.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.tr.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.uk.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.vi.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-TW.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/bootstrap-switch/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/bootstrap-switch/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/bootstrap-switch/css/bootstrap-switch.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/bootstrap-switch/css/bootstrap-switch.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/bootstrap-switch/js/bootstrap-switch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/bootstrap-switch/js/bootstrap-switch.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/bootstrap/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/bootstrap/css/bootstrap-theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/bootstrap/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/bootstrap/css/bootstrap-theme.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/bootstrap/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/bootstrap/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/bootstrap/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/bootstrap/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/bootstrap/js/npm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/font-awesome/HELP-US-OUT.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/font-awesome/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/font-awesome/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/font-awesome/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/font-awesome/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/font-awesome/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/font-awesome/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/font-awesome/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/font-awesome/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/font-awesome/less/animated.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/font-awesome/less/bordered-pulled.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/font-awesome/less/core.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/font-awesome/less/fixed-width.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/font-awesome/less/font-awesome.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/font-awesome/less/icons.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/font-awesome/less/larger.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/font-awesome/less/list.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/font-awesome/less/mixins.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/font-awesome/less/path.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/font-awesome/less/rotated-flipped.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/font-awesome/less/screen-reader.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/font-awesome/less/stacked.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/font-awesome/less/variables.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/font-awesome/scss/_animated.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/font-awesome/scss/_bordered-pulled.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/font-awesome/scss/_core.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/font-awesome/scss/_fixed-width.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/font-awesome/scss/_icons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/font-awesome/scss/_larger.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/font-awesome/scss/_list.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/font-awesome/scss/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/font-awesome/scss/_path.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/font-awesome/scss/_rotated-flipped.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/font-awesome/scss/_screen-reader.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/font-awesome/scss/_stacked.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/font-awesome/scss/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/font-awesome/scss/font-awesome.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/simple-line-icons/License.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/simple-line-icons/Readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/simple-line-icons/fonts/Simple-Line-Icons.dev.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/simple-line-icons/fonts/Simple-Line-Icons.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/simple-line-icons/fonts/Simple-Line-Icons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/simple-line-icons/fonts/Simple-Line-Icons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/simple-line-icons/fonts/Simple-Line-Icons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/simple-line-icons/icons-lte-ie7.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/simple-line-icons/simple-line-icons.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/simple-line-icons/simple-line-icons.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/swiper/css/swiper.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/swiper/css/swiper.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/swiper/js/swiper.jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/swiper/js/swiper.jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/uniform/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/uniform/css/uniform.default.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/uniform/css/uniform.default.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/uniform/css/uniform.default.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/uniform/images/bg-input-focus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/uniform/images/bg-input.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/uniform/images/sprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/uniform/images/sprite_original.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/uniform/jquery.uniform.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/static/plugins/uniform/jquery.uniform.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/utils/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/utils/captcha/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/utils/captcha/captcha.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/utils/captcha/fonts/Arial.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/utils/captcha/fonts/Georgia.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/utils/captcha/fonts/actionj.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/utils/converter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/utils/response_code.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/utils/toolbox.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/utils/yuntongxun/CCPRestSDK.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/utils/yuntongxun/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/utils/yuntongxun/send_sms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/utils/yuntongxun/xmltojson.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/utils/yuntongxun/接口说明.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/v_1_0/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/v_1_0/auth.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/v_1_0/certification.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/v_1_0/detail.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/v_1_0/index.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/v_1_0/keys/alipay_public_key.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/v_1_0/keys/rsa_private_key.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/v_1_0/my.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/v_1_0/myhouse.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/v_1_0/new_house.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/v_1_0/orders.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/v_1_0/passport.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/v_1_0/profile.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz/web_html.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="flask_dz@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="flask_dz@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="flask_dz@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="flask_dz: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="flask_dz" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dz/v_1_0/orders.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="268">
+              <caret line="130" column="34" lean-forward="true" selection-start-line="130" selection-start-column="34" selection-end-line="130" selection-end-column="34" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dz/static/js/dz/lorders.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="42" column="55" lean-forward="true" selection-start-line="42" selection-start-column="55" selection-end-line="42" selection-end-column="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dz/static/html/lorders.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="444">
+              <caret line="60" column="47" lean-forward="true" selection-start-line="48" selection-start-column="40" selection-end-line="60" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dz/v_1_0/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="22" column="3" lean-forward="true" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dz/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="536">
+              <caret line="224" lean-forward="true" selection-start-line="224" selection-end-line="224" />
+              <folding>
+                <element signature="e#0#34#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>,</find>
+      <find>encodestring</find>
+      <find>;</find>
+      <find>send</find>
+      <find>facilities</find>
+      <find>up</find>
+      <find>landlord-pic</find>
+      <find>swiper-slide</find>
+      <find>jgp</find>
+      <find>filter-item-bar</find>
+      <find>StrictRedis</find>
+      <find>swiper-houses-tmpl</find>
+      <find>order-pay</find>
+      <find>src</find>
+      <find>print</find>
+      <find>去支付</find>
+      <find>ihome</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>as</replace>
+      <replace />
+      <replace>jpg</replace>
+      <replace>dz</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/dz/static/html/auth.html" />
+        <option value="$PROJECT_DIR$/dz/static/html/booking.html" />
+        <option value="$PROJECT_DIR$/dz/static/html/login.html" />
+        <option value="$PROJECT_DIR$/dz/static/html/my.html" />
+        <option value="$PROJECT_DIR$/dz/utils/yuntongxun/sms.py" />
+        <option value="$PROJECT_DIR$/dz/utils/yuntongxun/send_sms.py" />
+        <option value="$PROJECT_DIR$/dz/v_1_0/register.py" />
+        <option value="$PROJECT_DIR$/dz/static/js/dz/register.js" />
+        <option value="$PROJECT_DIR$/dz/static/js/dz/login.js" />
+        <option value="$PROJECT_DIR$/dz/v_1_0/passport.py" />
+        <option value="$PROJECT_DIR$/dz/v_1_0/auth.py" />
+        <option value="$PROJECT_DIR$/dz/static/js/dz/auth.js" />
+        <option value="$PROJECT_DIR$/dz/v_1_0/my.py" />
+        <option value="$PROJECT_DIR$/dz/static/js/dz/my.js" />
+        <option value="$PROJECT_DIR$/test/static/index.html" />
+        <option value="$PROJECT_DIR$/test/manage.py" />
+        <option value="$PROJECT_DIR$/dz/utils/converter.py" />
+        <option value="$PROJECT_DIR$/dz/utils/toolbox.py" />
+        <option value="$PROJECT_DIR$/dz/__init__.py" />
+        <option value="$PROJECT_DIR$/dz/static/js/dz/profile.js" />
+        <option value="$PROJECT_DIR$/dz/static/html/profile.html" />
+        <option value="$PROJECT_DIR$/dz/static/html/newhouse.html" />
+        <option value="$PROJECT_DIR$/dz/v_1_0/profile.py" />
+        <option value="$PROJECT_DIR$/dz/static/js/dz/newhouse.js" />
+        <option value="$PROJECT_DIR$/dz/static/js/dz/myhouse.js" />
+        <option value="$PROJECT_DIR$/dz/v_1_0/myhouse.py" />
+        <option value="$PROJECT_DIR$/dz/static/html/myhouse.html" />
+        <option value="$PROJECT_DIR$/dz/v_1_0/new_house.py" />
+        <option value="$PROJECT_DIR$/dz/static/html/detail.html" />
+        <option value="$PROJECT_DIR$/dz/static/js/dz/detail.js" />
+        <option value="$PROJECT_DIR$/dz/v_1_0/certification.py" />
+        <option value="$PROJECT_DIR$/dz/static/html/index.html" />
+        <option value="$PROJECT_DIR$/dz/static/js/dz/index.js" />
+        <option value="$PROJECT_DIR$/dz/static/js/dz/search.js" />
+        <option value="$PROJECT_DIR$/dz/static/html/search.html" />
+        <option value="$PROJECT_DIR$/dz/static/js/dz/booking.js" />
+        <option value="$PROJECT_DIR$/dz/models.py" />
+        <option value="$PROJECT_DIR$/dz/v_1_0/detail.py" />
+        <option value="$PROJECT_DIR$/dz/v_1_0/__init__.py" />
+        <option value="$PROJECT_DIR$/dz/v_1_0/index.py" />
+        <option value="$PROJECT_DIR$/manage.py" />
+        <option value="$PROJECT_DIR$/config.py" />
+        <option value="$PROJECT_DIR$/dz/v_1_0/keys/rsa_private_key.pem" />
+        <option value="$PROJECT_DIR$/dz/v_1_0/keys/alipay_public_key.pem" />
+        <option value="$PROJECT_DIR$/dz/static/html/payComplete.html" />
+        <option value="$PROJECT_DIR$/logs/logs" />
+        <option value="$PROJECT_DIR$/dz/v_1_0/orders.py" />
+        <option value="$PROJECT_DIR$/dz/static/js/dz/orders.js" />
+        <option value="$PROJECT_DIR$/dz/static/js/dz/lorders.js" />
+        <option value="$PROJECT_DIR$/dz/static/html/lorders.html" />
+        <option value="$PROJECT_DIR$/dz/static/html/orders.html" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="952" />
+    <option name="width" value="977" />
+    <option name="height" value="1088" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="flask_dz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flask_dz" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flask_dz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flask_dz" type="462c0819:PsiDirectoryNode" />
+              <item name="dz" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flask_dz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flask_dz" type="462c0819:PsiDirectoryNode" />
+              <item name="dz" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flask_dz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flask_dz" type="462c0819:PsiDirectoryNode" />
+              <item name="dz" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flask_dz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flask_dz" type="462c0819:PsiDirectoryNode" />
+              <item name="dz" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flask_dz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flask_dz" type="462c0819:PsiDirectoryNode" />
+              <item name="dz" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flask_dz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flask_dz" type="462c0819:PsiDirectoryNode" />
+              <item name="dz" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="dz" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flask_dz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flask_dz" type="462c0819:PsiDirectoryNode" />
+              <item name="dz" type="462c0819:PsiDirectoryNode" />
+              <item name="v_1_0" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flask_dz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flask_dz" type="462c0819:PsiDirectoryNode" />
+              <item name="dz" type="462c0819:PsiDirectoryNode" />
+              <item name="v_1_0" type="462c0819:PsiDirectoryNode" />
+              <item name="keys" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flask_dz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flask_dz" type="462c0819:PsiDirectoryNode" />
+              <item name="logs" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="database.console.LAST_STATE" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/dz/static/html" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Program Files (x86)\网盘文件\网盘下载文件\全部总结\python\flask_dz\dz\utils\yuntongxun" />
+      <recent name="D:\Program Files (x86)\网盘文件\网盘下载文件\全部总结\python\flask_dz" />
+      <recent name="D:\Program Files (x86)\网盘文件\网盘下载文件\全部总结\python\flask_dz\dz\utils" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Program Files (x86)\网盘文件\网盘下载文件\全部总结\python\flask_dz\dz\static\html" />
+      <recent name="D:\Program Files (x86)\网盘文件\网盘下载文件\全部总结\python\flask_dz\dz\v_1_0\keys" />
+      <recent name="D:\Program Files (x86)\网盘文件\网盘下载文件\全部总结\python\flask_dz\dz\v_1_0" />
+      <recent name="D:\Program Files (x86)\网盘文件\网盘下载文件\全部总结\python\flask_dz\dz\static" />
+      <recent name="D:\Program Files (x86)\网盘文件\网盘下载文件\全部总结\python\flask_dz\dz\static\js\dz" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.config">
+    <configuration name="captcha" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="flask_dz" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dz/utils/captcha" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dz/utils/captcha/captcha.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="config" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="flask_dz" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/config.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="manage" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="flask_dz" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/manage.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="models" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="flask_dz" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dz" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dz/models.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="send_sms" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="flask_dz" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dz/utils/yuntongxun" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dz/utils/yuntongxun/send_sms.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.config" />
+        <item itemvalue="Python.manage" />
+        <item itemvalue="Python.models" />
+        <item itemvalue="Python.send_sms" />
+        <item itemvalue="Python.captcha" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4b9ad054-8c16-40ee-8536-23ef58d11bf7" name="Default Changelist" comment="" />
+      <created>1578363693903</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578363693903</updated>
+      <workItem from="1578363706954" duration="17184000" />
+      <workItem from="1578494735928" duration="625000" />
+      <workItem from="1578535330332" duration="606000" />
+      <workItem from="1578554110590" duration="21077000" />
+      <workItem from="1578621211296" duration="19202000" />
+      <workItem from="1578887512315" duration="6733000" />
+      <workItem from="1578986089066" duration="18855000" />
+      <workItem from="1579138671605" duration="22212000" />
+      <workItem from="1579223301280" duration="17275000" />
+      <workItem from="1579395596201" duration="19671000" />
+      <workItem from="1579524340387" duration="9071000" />
+      <workItem from="1579568416373" duration="10075000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="162586000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="762" y="0" width="781" height="870" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49604744" visible="true" weight="0.21991701" />
+      <window_info id="Structure" order="1" sideWeight="0.5034965" side_tool="true" weight="0.2493113" />
+      <window_info id="Favorites" order="2" sideWeight="0.50395256" side_tool="true" weight="0.2493113" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32913166" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32447553" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3277311" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32867134" />
+      <window_info anchor="bottom" id="Database Changes" order="9" weight="0.32913166" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.83893555" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.6806723" />
+      <window_info anchor="bottom" id="Database Console" order="13" weight="0.8333333" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24965517" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.3281046" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32918397" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49604744" visible="true" weight="0.21576764" />
+      <window_info id="Structure" order="1" sideWeight="0.5034965" side_tool="true" weight="0.2493113" />
+      <window_info id="Favorites" order="2" sideWeight="0.50395256" side_tool="true" weight="0.2493113" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32913166" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32447553" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32867134" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32867134" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32913166" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32867134" />
+      <window_info anchor="bottom" id="Database Console" order="13" weight="0.8333333" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24965517" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.3292011" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32918397" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.log" />
+    <option featureType="com.intellij.fileTypeFactory" implementationName="requirements.txt" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/flask_dz$models.coverage" NAME="models Coverage Results" MODIFIED="1578623657120" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dz" />
+    <SUITE FILE_PATH="coverage/flask_dz$manage.coverage" NAME="manage Coverage Results" MODIFIED="1578664868086" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/flask_dz$send_sms.coverage" NAME="send_sms Coverage Results" MODIFIED="1578564643447" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dz/utils/yuntongxun" />
+    <SUITE FILE_PATH="coverage/flask_dz$sms.coverage" NAME="sms Coverage Results" MODIFIED="1578558099791" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dz/utils/yuntongxun" />
+    <SUITE FILE_PATH="coverage/flask_dz$config.coverage" NAME="config Coverage Results" MODIFIED="1578988897611" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/flask_dz$captcha.coverage" NAME="captcha Coverage Results" MODIFIED="1578558456911" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dz/utils/captcha" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/upload/10e65ae9-e991-4daa-8465-ca928dddd908.jpg" />
+    <entry file="file://$PROJECT_DIR$/upload/9b5e27d0-f854-4985-8359-97340d5b0a1f.jpg" />
+    <entry file="file://$PROJECT_DIR$/upload/64a4a9e9-ff11-4103-98e0-209e480c3dff.jpg" />
+    <entry file="file://$PROJECT_DIR$/upload/5b13de6f-ebd0-48be-9b9b-d4c921a1a89d.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dz/static/html/profile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="453">
+          <caret line="51" column="14" lean-forward="true" selection-start-line="51" selection-start-column="14" selection-end-line="51" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dz/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="44" column="18" lean-forward="true" selection-start-line="44" selection-start-column="18" selection-end-line="44" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dz/static/js/dz/profile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="80" column="41" selection-start-line="80" selection-start-column="41" selection-end-line="80" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dz/static/js/template.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dz/static/js/dz/myhouse.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dz/static/html/myhouse.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="41" column="25" lean-forward="true" selection-start-line="41" selection-start-column="25" selection-end-line="41" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dz/v_1_0/myhouse.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="43" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#17#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dz/utils/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dz/static/html/newhouse.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="29">
+          <caret line="261" column="62" lean-forward="true" selection-start-line="261" selection-start-column="62" selection-end-line="261" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://5cf47b89-be87-4dcd-8f85-36c8f8fc5ebb/schema/flask_dz/table/dz_user">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true">
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://5cf47b89-be87-4dcd-8f85-36c8f8fc5ebb/schema/flask_dz/table/dz_house">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true">
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/5cf47b89-be87-4dcd-8f85-36c8f8fc5ebb/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/upload/385c1192-dfc4-4a6a-8086-0a9181a69560.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dz/v_1_0/new_house.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="66" column="20" lean-forward="true" selection-start-line="66" selection-start-column="20" selection-end-line="66" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dz/static/js/dz/newhouse.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="81" column="47" selection-start-line="81" selection-start-column="47" selection-end-line="81" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dz/static/html/detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="111" column="20" lean-forward="true" selection-start-line="111" selection-start-column="20" selection-end-line="111" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dz/v_1_0/certification.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="55" selection-start-line="55" selection-end-line="55" />
+          <folding>
+            <element signature="e#0#17#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dz/static/images/landlord01.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dz/v_1_0/profile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="557">
+          <caret line="107" column="74" lean-forward="true" selection-start-line="107" selection-start-column="74" selection-end-line="107" selection-end-column="74" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dz/static/plugins/swiper/js/swiper.jquery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dz/v_1_0/auth.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="650">
+          <caret line="52" column="13" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Anaconda/python3/Lib/json/encoder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="194" column="42" lean-forward="true" selection-start-line="194" selection-start-column="42" selection-end-line="194" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dz/static/js/dz/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="109" column="51" lean-forward="true" selection-start-line="109" selection-start-column="51" selection-end-line="109" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dz/static/html/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="25" column="38" lean-forward="true" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dz/static/js/dz/search.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="56" column="33" lean-forward="true" selection-start-line="56" selection-start-column="33" selection-end-line="56" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dz/static/html/search.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="64" column="86" lean-forward="true" selection-start-line="64" selection-start-column="86" selection-end-line="64" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dz/utils/response_code.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dz/static/js/dz/detail.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="35" column="44" lean-forward="true" selection-start-line="35" selection-start-column="44" selection-end-line="35" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dz/static/js/dz/booking.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="50" column="20" lean-forward="true" selection-start-line="50" selection-start-column="20" selection-end-line="50" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dz/static/html/booking.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dz/v_1_0/index.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="191" column="59" selection-start-line="191" selection-start-column="59" selection-end-line="191" selection-end-column="59" />
+          <folding>
+            <element signature="e#0#17#0" expanded="true" />
+            <element signature="e#300#1235#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dz/v_1_0/detail.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="794">
+          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+          <folding>
+            <element signature="e#0#17#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Anaconda/python3_virtualenv/temp2.1.8/Lib/site-packages/alipay/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="29">
+          <caret line="89" selection-start-line="89" selection-end-line="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Anaconda/python3_virtualenv/temp2.1.8/Lib/site-packages/flask_script/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="397" column="46" selection-start-line="397" selection-start-column="46" selection-end-line="397" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="45" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dz/v_1_0/keys/alipay_public_key.pem">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="392" selection-start-line="1" selection-start-column="392" selection-end-line="1" selection-end-column="392" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dz/v_1_0/keys/rsa_private_key.pem">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="64" lean-forward="true" selection-start-line="19" selection-start-column="64" selection-end-line="19" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dz/static/html/payComplete.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="29" lean-forward="true" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/logs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="29" lean-forward="true" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dz/static/js/dz/orders.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="53" column="32" lean-forward="true" selection-start-line="53" selection-start-column="32" selection-end-line="53" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dz/v_1_0/orders.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="130" column="34" lean-forward="true" selection-start-line="130" selection-start-column="34" selection-end-line="130" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dz/static/js/dz/lorders.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="42" column="55" lean-forward="true" selection-start-line="42" selection-start-column="55" selection-end-line="42" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dz/v_1_0/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="3" lean-forward="true" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dz/static/html/lorders.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="444">
+          <caret line="60" column="47" lean-forward="true" selection-start-line="48" selection-start-column="40" selection-end-line="60" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dz/static/html/orders.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="487">
+          <caret line="57" column="47" lean-forward="true" selection-start-line="57" selection-start-column="47" selection-end-line="57" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dz/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="536">
+          <caret line="224" lean-forward="true" selection-start-line="224" selection-end-line="224" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

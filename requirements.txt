@@ -1,0 +1,8 @@
+flask
+redis
+flask_session
+flask_wtf
+flask_script
+flask_migrate
+flask_sqlalchemy
+
