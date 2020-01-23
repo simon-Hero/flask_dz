@@ -41,7 +41,7 @@ class Config(object):
 
     # 上传文件
     UPLOAD_FOLDER = "upload"  # 设置上传文件的相对地址
-    ALLOWED_EXTENSIONS = set(['png', 'jpg', 'JPG', 'PNG'])
+    ALLOWED_EXTENSIONS = set(['png', 'jpg', 'jpeg', 'JPG', 'PNG'])
     FILE_DIR = os.path.join(BASEDIR, UPLOAD_FOLDER)  # 上传文件的绝对地址
 
 

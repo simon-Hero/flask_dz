@@ -58,6 +58,9 @@ body {
     text-decoration: none;
     color: green;
 }
+.house-title>h3 {
+    text-align: center;
+}
 .house-content {
     background-color: #fff; 
     border-bottom-left-radius: 5px;

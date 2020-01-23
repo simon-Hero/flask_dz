@@ -10,7 +10,7 @@ import json
 @api.route("/detail/<int:house_id>", methods=["GET"])
 def get_house_detail(house_id):
     """获取房屋的详细信息"""
-    user_id  = session.get("user_id")
+    user_id = session.get("user_id")
 
     if not house_id:
         return jsonify(errno=RET.PARAMERR, errmsg="参数缺失")

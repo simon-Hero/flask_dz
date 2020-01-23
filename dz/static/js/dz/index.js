@@ -47,7 +47,7 @@ function goToSearchPage(th) {
     var url = "/search.html?";
     url += ("aid=" + $(th).attr("area-id"));
     url += "&";
-    var areaName = $(th).attr("area-name");
+    var areaName = $(th).attr("area_name");
     if (undefined == areaName) areaName="";
     url += ("aname=" + areaName);
     url += "&";
@@ -56,13 +56,17 @@ function goToSearchPage(th) {
     url += ("ed=" + $(th).attr("end-date"));
     location.href = url;
 }
-var mySwiper = new Swiper ('.swiper-container', {
-                loop: true,
-                autoplay: 2000,
-                autoplayDisableOnInteraction: false,
-                pagination: '.swiper-pagination',
-                paginationClickable: true
-            });
+
+window.onload = function() {
+    var mySwiper = new Swiper ('.swiper-container', {
+        loop: true,
+        autoplay: 2000,
+        autoplayDisableOnInteraction: false,
+        pagination: '.swiper-pagination',
+        paginationClickable: true
+    });
+};
+
 
 $(document).ready(function(){
     // $(".top-bar>.register-login").show();

@@ -39,6 +39,11 @@
                         <div class="form-group">
                             <label for="area-id">所在城区</label>
                             <select class="form-control" id="area-id" name="area_id">
+                                <script type="text/html" id="areas-tmpl">
+                                {{each areas as area}}
+                                <option value="{{area.aid}}">{{area.a_name}}</option>
+                                {{/each}}
+                                </script>
                             </select>
                         </div>
                         <div class="form-group">
@@ -267,10 +272,15 @@
                     </div>
                     <div class="house-content">
                         <div class="house-image-cons">
+                            <script type="text/html" id="image_tmpl">
+                            {{each image_names as image_name}}
+                            <img src="/api/user/show/{{image_name}}">
+                            {{/each}}
+                            </script>
                         </div>
                         <div class="form-group">
                             <label for="house-image">选择图片</label>
-                            <input type="file" accept="image/*" name="house_image" id="house-image">
+                            <input type="file"  multiple capture='camera' accept="image/*" name="house_image" id="house-image">
                         </div>
                         <input type="submit" class="btn btn-success" value="上传">
                     </div>
@@ -280,7 +290,8 @@
         </div>
         <div class="popup_con">
             <div class="popup">
-                <p><i class="fa fa-spinner fa-spin fa-3x fa-fw"></i></p>
+<!--                <i class="fa fa-spinner fa-spin fa-3x fa-fw"></i>-->
+                <p></p>
             </div>
             <div class="mask"></div>
         </div>
@@ -291,6 +302,7 @@
     
     <script src="/static/js/jquery.min.js"></script>
     <script src="/static/js/jquery.form.min.js"></script>
+    <script src="/static/js/template.js"></script>
     <script src="/static/plugins/bootstrap/js/bootstrap.min.js"></script>
     <script src="/static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js"></script>
     <script src="/static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js"></script>

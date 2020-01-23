@@ -23,7 +23,9 @@ $(document).ready(function () {
                 self.location.href = "/login.html"
             } else if (resp.errno == "0") {
                 $("#user-name").val(resp.data.name);
-                $("#user-avatar").attr("src", "/api/user/show/" + resp.data.avatar);
+                if (resp.data.avatar != null) {
+                    $("#user-avatar").attr("src", "/api/user/show/" + resp.data.avatar);
+                }
             }
         }
     });
@@ -78,6 +80,7 @@ $(document).ready(function () {
             success: function (resp) {
                 if (resp.errno == "0") {
                     showSuccessMsg();
+                    $("#user-avatar").attr("src", "/api/user/show/" + resp.data.avatar);
                 } else if (resp.errno == "4101") {
                     self.location.href = "/login.html";
                 } else {

@@ -10,13 +10,17 @@ function decodeQuery(){
         return result;
     }, {});
 }
-var mySwiper = new Swiper ('.swiper-container', {
-        loop: true,
-        autoplay: 2000,
-        autoplayDisableOnInteraction: false,
-        pagination: '.swiper-pagination',
-        paginationType: 'fraction'
+
+window.onload = function() {
+    var mySwiper = new Swiper ('.swiper-container', {
+            loop: true,
+            autoplay: 2000,
+            autoplayDisableOnInteraction: false,
+            pagination: '.swiper-pagination',
+            paginationType: 'fraction'
     });
+};
+
 
 $(document).ready(function(){
     var queryData = decodeQuery();
@@ -38,14 +42,5 @@ $(document).ready(function(){
             }
         }
     });
-
-
-
-
-
-
-
-
-
 
 });

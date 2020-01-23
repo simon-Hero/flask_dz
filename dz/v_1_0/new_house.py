@@ -95,7 +95,8 @@ def save_house_image():
     file_dir = Config.FILE_DIR
     if not os.path.exists(file_dir):
         os.makedirs(file_dir)
-    f = request.files.get("house_image")
+    # f = request.files.get("house_image")
+    f = request.files
     house_id = request.form.get("house_id")
     if not all([f, house_id]):
         return jsonify(errno=RET.PARAMERR, errmsg="参数错误")
@@ -109,27 +110,32 @@ def save_house_image():
     if house is None:
         return jsonify(errno=RET.NODATA, errmsg="房屋不存在")
 
-    if f and allowed_file(f.filename):
-        f_name = secure_filename(f.filename)
-        ext = f_name.rsplit('.', 1)[1]
-        new_filename = str(uuid.uuid4()) + '.' + ext  # 采用uuid保存文件名
-        f.save(os.path.join(file_dir, new_filename))
+    if f:
+        image_names = []
+        for i in range(len(f)):
+            real_file = f.get("file" + str(i))
+            if allowed_file(real_file.filename):
+                f_name = secure_filename(real_file.filename)
+                ext = f_name.rsplit('.', 1)[1]
+                new_filename = str(uuid.uuid4()) + '.' + ext  # 采用uuid保存文件名
+                house_image = HouseImage(house_id=house_id, url=new_filename)
+                db.session.add(house_image)
 
-        house_image = HouseImage(house_id=house_id, url=new_filename)
-        db.session.add(house_image)
+                if not house.index_image_url:
+                    house.index_image_url = new_filename
+                    db.session.add(house)
 
-        if not house.index_image_url:
-            house.index_image_url = new_filename
-            db.session.add(house)
+                try:
+                    db.session.commit()
+                except Exception as e:
+                    current_app.logger.error(e)
+                    db.session.rollback()
+                    return jsonify(errno=RET.DBERR, errmsg="保存图片异常")
+                real_file.save(os.path.join(file_dir, new_filename))
 
-        try:
-            db.session.commit()
-        except Exception as e:
-            current_app.logger.error(e)
-            db.session.rollback()
-            return jsonify(errno=RET.DBERR, errmsg="保存图片异常")
+                image_names.append(new_filename)
 
-        return jsonify(errno=RET.OK, errmsg="ok", data={"image_name": new_filename})
+        return jsonify(errno=RET.OK, errmsg="上传成功", data={"image_names": image_names})
     else:
         return jsonify(errno=RET.DATAERR, errmsg="上传失败")
 

@@ -29,6 +29,7 @@ $(document).ready(function(){
             if (resp.errno == "0") {
                 $("#user-name").html(resp.data.name);
                 $("#user-mobile").html(resp.data.mobile);
+                $("#user-avatar").attr("src", "/api/user/show/" + resp.data.avatar_url)
             } else {
                 alert(resp.errmsg);
             }

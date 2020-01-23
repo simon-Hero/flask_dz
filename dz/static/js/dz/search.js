@@ -38,7 +38,7 @@ function updateHouseData(action){
     } 
     var startDate = $("#start-date").val();
     var endDate = $("#end-date").val();
-    var sortKey = $("#filter-sort>li.active").attr("sort-key");
+    var sortKey = $(".filter-sort>li.active").attr("sort-key");
     var params = {
         aid: areaId,
         sd: startDate,
@@ -46,6 +46,7 @@ function updateHouseData(action){
         sk: sortKey,
         p: next_page
     };
+
     $.get("/api/houses", params, function (resp) {
         house_data_querying = false;
         if(resp.errno=="0"){
@@ -100,6 +101,7 @@ $(document).ready(function(){
             }
             // 在页面添加好城区选项信息后，更新展示房屋列表信息
             updateHouseData("renew");
+
             // 获取页面显示窗口的高度
             var windowHeight = $(window).height();
             // 为窗口的滚动添加事件函数
@@ -128,9 +130,6 @@ $(document).ready(function(){
         }
     });
 
-
-
-
     $(".input-daterange").datepicker({
         format: "yyyy-mm-dd",
         startDate: "today",
@@ -153,16 +152,19 @@ $(document).ready(function(){
         }
     });
     $(".display-mask").on("click", function(e) {
+        updateHouseData("renew");
         $(this).hide();
         $filterItem.removeClass('active');
         updateFilterDateDisplay();
-
     });
     $(".filter-item-bar>.filter-area").on("click", "li", function(e) {
         if (!$(this).hasClass("active")) {
             $(this).addClass("active");
             $(this).siblings("li").removeClass("active");
             $(".filter-title-bar>.filter-title").eq(1).children("span").eq(0).html($(this).html());
+            updateHouseData("renew");
+            $(".filter-area").removeClass("active");
+            $(".display-mask").hide();
         } else {
             $(this).removeClass("active");
             $(".filter-title-bar>.filter-title").eq(1).children("span").eq(0).html("位置区域");
@@ -173,6 +175,9 @@ $(document).ready(function(){
             $(this).addClass("active");
             $(this).siblings("li").removeClass("active");
             $(".filter-title-bar>.filter-title").eq(2).children("span").eq(0).html($(this).html());
+            updateHouseData("renew");
+            $(".filter-sort").removeClass("active");
+            $(".display-mask").hide();
         }
     })
 })

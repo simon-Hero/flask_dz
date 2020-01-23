@@ -30,7 +30,10 @@ def save_order():
         start_date = datetime.datetime.strptime(start_date, "%Y-%m-%d")
         end_date = datetime.datetime.strptime(end_date, "%Y-%m-%d")
         assert start_date <= end_date
-        days = (end_date - start_date).days + 1
+        if (end_date - start_date).days == 0:
+            days = 1
+        else:
+            days = (end_date - start_date).days
     except Exception as e:
         current_app.logger.error(e)
         return jsonify(errno=RET.PARAMERR, errmsg="日期格式错误")
@@ -223,12 +226,13 @@ def order_pay(order_id):
         notify_url=None  # 可选, 不填则使用默认notify url
     )
 
-    pay_url = settings.ALIPAY_URL + order_string
+    pay_url = (settings.ALIPAY_URL + order_string).replace("+", "%20")
+    print(pay_url)
     return jsonify(errno=RET.OK, errmsg="OK", data={"pay_url": pay_url})
 
 
 @api.route("/order/payment", methods=["PUT"])
-# @login_require
+@login_require
 def save_order_result():
     """保存支付结果"""
     alipay_dict = request.form.to_dict()

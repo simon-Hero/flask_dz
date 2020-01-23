@@ -44,7 +44,7 @@ $(document).ready(function() {
                     self.location.href = "/index.html"
                 }
                 else {
-                    $("#password-err span").html(resp.data.errmsg);
+                    $("#password-err span").html(resp.errmsg);
                     $("#password-err").show();
                 }
             }

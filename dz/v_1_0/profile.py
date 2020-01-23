@@ -68,6 +68,10 @@ def set_user_avatar():
         new_filename = str(uuid.uuid4()) + '.' + ext  # 采用uuid保存文件名
         f.save(os.path.join(file_dir, new_filename))
         try:
+            user = User.query.filter_by(id=user_id).first()
+            if user.avatar_url:
+                old_filename = user.avatar_url
+                os.remove(os.path.join(file_dir, old_filename))
             User.query.filter_by(id=user_id).update({"avatar_url": new_filename})
             db.session.commit()
         except Exception as e:
@@ -75,7 +79,7 @@ def set_user_avatar():
             db.session.rollback()
             return jsonify(errno=RET.DBERR, errmsg="数据库异常")
 
-        return jsonify(errno=RET.OK, errmsg="ok")
+        return jsonify(errno=RET.OK, errmsg="ok", data={"avatar": new_filename})
     else:
         return jsonify(errno=RET.DATAERR, errmsg="上传失败")
 

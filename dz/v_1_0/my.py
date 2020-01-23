@@ -15,7 +15,7 @@ def get_user_name():
     except Exception as e:
         current_app.logger.error(e)
         return jsonify(errno=RET.DBERR, errmsg="数据库错误")
-    return jsonify(errno=RET.OK, errmsg="OK", data={"name": user.name, "mobile": user.mobile})
+    return jsonify(errno=RET.OK, errmsg="OK", data={"name": user.name, "mobile": user.mobile, "avatar_url": user.avatar_url})
 
 
 @api.route("/session", methods=["DELETE"])

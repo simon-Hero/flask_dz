@@ -40,7 +40,10 @@ $(document).ready(function(){
         } else {
             var sd = new Date(startDate);
             var ed = new Date(endDate);
-            days = (ed - sd)/(1000*3600*24) + 1;
+            days = (ed - sd)/(1000*3600*24);
+            if (days === 0) {
+                days = 1
+            }
             var price = $(".house-text>p>span").html();
             var amount = days * parseFloat(price);
             $(".order-amount>span").html(amount.toFixed(2) + "(共"+ days +"晚)");
@@ -64,9 +67,10 @@ $(document).ready(function(){
         type: "get",
         success: function (resp) {
             if (resp.errno == "0") {
-                $(".house-info>img").attr("src", resp.data.house_data.img_urls[0]);
-                $(".house-text>h3").html(resp.data.house_data.title);
-                $(".house-text>p>span").html(resp.data.house_data.price).toFixed(0);
+                var json_data = JSON.parse(resp.data.house_data);
+                $(".house-info>img").attr("src", "/api/user/show/"+ json_data.img_urls[0]);
+                $(".house-text>h3").html(json_data.title);
+                $(".house-text>p>span").html(json_data.price);
             }
         }
     });
@@ -96,8 +100,8 @@ $(document).ready(function(){
                         self.location.href = "/login.html"
                     } else if (resp.errno == "0") {
                         self.location.href = "/orders.html"
-                    } else if (resp.errno == "4004") {
-                        showErrorMsg("房间已被预订，请重新选择日期！");
+                    } else if (resp.errno == "4105") {
+                        showErrorMsg()
                     }
                 }
             })

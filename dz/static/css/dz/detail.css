@@ -33,6 +33,9 @@ body {
 .swiper-container, .swiper-slide img, .landlord-pic>img {
     width: 100%;
 }
+.swiper-container, .swiper-slide img {
+    height: 298px;
+}
 .swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {
     bottom: 0px;
 }

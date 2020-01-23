@@ -2,6 +2,14 @@ function getCookie(name) {
     var r = document.cookie.match("\\b" + name + "=([^;]*)\\b");
     return r ? r[1] : undefined;
 }
+function showErrorMsg(message) {
+    $(".popup>p").html(message);
+    $('.popup_con').fadeIn('fast', function() {
+        setTimeout(function(){
+            $('.popup_con').fadeOut('fast',function(){});
+        },1000)
+    });
+}
 
 $(document).ready(function(){
     // $('.popup_con').fadeIn('fast');
@@ -15,9 +23,8 @@ $(document).ready(function(){
         success: function (resp) {
             if (resp.errno == "0") {
                 var datas = resp.data;
-                for (var i=0; i<datas.length; i++) {
-                    $("#area-id").append('<option value="'+ resp.data[i].aid +'">'+ resp.data[i].a_name +'</option>')
-                }
+                var html = template("areas-tmpl", {areas: datas});
+                $("#area-id").html(html)
             }
         }
     });
@@ -63,12 +70,11 @@ $(document).ready(function(){
     // 上传图片
     $("#form-house-image").submit(function (e) {
         e.preventDefault();
-        var file = $("#house-image").get(0).files[0];
-        if (!file) {
-            alert("请选择上传文件");
-            return
+        var data = new FormData();   //注意jQuery选择出来的结果是个数组,需要加上[0]获取
+        for(var i=0;i<$("#house-image")[0].files.length;i++) {  //循环获取上传个文件
+            data.append("file" + i, $("#house-image")[0].files[i]);
         }
-        var data = new FormData($("#form-house-image")[0]);   //注意jQuery选择出来的结果是个数组,需要加上[0]获取
+        data.append("house_id", $("#house-id").val());
         $.ajax({
             url: 'api/houses/image',
             method: 'POST',
@@ -80,9 +86,10 @@ $(document).ready(function(){
                 if (resp.errno == "4101") {
                     self.location.href = "/login.html"
                 } else if (resp.errno == "0") {
-                    $(".house-image-cons").append('<img src="/api/user/show/' + resp.data.image_name +'">')
+                    $(".house-image-cons").html(template("image_tmpl", {image_names: resp.data.image_names}));
+                    showErrorMsg(resp.errmsg);
                 } else {
-                    alert(resp.errmsg);
+                    showErrorMsg(resp.errmsg);
                 }
             }
         })
