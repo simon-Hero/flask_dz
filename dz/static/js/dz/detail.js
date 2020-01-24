@@ -13,11 +13,13 @@ function decodeQuery(){
 
 window.onload = function() {
     var mySwiper = new Swiper ('.swiper-container', {
-            loop: true,
-            autoplay: 2000,
-            autoplayDisableOnInteraction: false,
-            pagination: '.swiper-pagination',
-            paginationType: 'fraction'
+        loop: true,
+        autoplay: 2000,
+        autoplayDisableOnInteraction: false,
+        pagination: '.swiper-pagination',
+        paginationType: 'fraction',
+        observer: true,
+        observeParents:true,
     });
 };
 

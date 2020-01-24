@@ -63,7 +63,9 @@ window.onload = function() {
         autoplay: 2000,
         autoplayDisableOnInteraction: false,
         pagination: '.swiper-pagination',
-        paginationClickable: true
+        paginationClickable: true,
+        observer: true,
+        observeParents:true,
     });
 };
 

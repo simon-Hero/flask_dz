@@ -157,9 +157,11 @@ class House(BaseModel, db.Model):
         if orders:
             for order in orders:
                 comment = {
+                    "user_avatar": order.user.avatar_url,
+                    "begin_date": order.begin_time.strftime("%Y-%m-%d"),
                     "comment": order.comment,
                     "user_name": order.user.name if order.user.name != order.user.mobile else "匿名用户",
-                    "ctime": order.update_time.strftime("%Y-%m-%d %H:%M:%s")
+                    "ctime": order.update_time.strftime("%Y-%m-%d")
                 }
                 comments.append(comment)
         house_dict["comments"] = comments

@@ -167,8 +167,45 @@ body {
     color: #333;
 }
 .house-comment-list {
-   border-bottom: 1px solid #eee; 
+   border-bottom: 1px solid #eee;
 }
+.house-comment-list li {
+    margin: 8px 0;
+}
+
+
+.media-left img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50% 50%;
+}
+.title_right {
+    display: table-cell;
+    width: 270px;
+    height: 60px;
+}
+.media-heading {
+    font-size: 16px;
+    color: #484848;
+}
+.media-p {
+    font-size: 12px;
+    color: #484848;
+}
+.meida-span {
+    float: right;
+    font-size: 12px;
+    color: #484848;
+}
+
+.media-body {
+    padding: 5px 5px;
+}
+
+
+
+
+
 .house-facility-list>li {
     float: left;
     width: 50%;

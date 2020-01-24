@@ -118,8 +118,29 @@
                 <ul class="house-comment-list">
                     {{ each house.comments as comment}}
                     <li>
-                        <p>{{comment.user_name}}<span class="fr">{{comment.ctime}}</span></p>
-                        <p>{{comment.comment}}</p>
+<!--                        <p>{{comment.user_name}}<span class="fr">{{comment.ctime}}</span></p>-->
+<!--                        <p>{{comment.comment}}</p>-->
+                        <div class="media">
+                          <div class="media-top">
+                              <div class="media-left">
+                                  <a href="#">
+                                      <img class="media-object" src="/api/user/show/{{comment.user_avatar}}" alt="用户头像">
+                                  </a>
+                              </div>
+<!--                              <div class="media-right">-->
+<!--                                  <div class="media-top">-->
+                              <div class="title_right">
+                                  <h3 class="media-heading">{{comment.user_name}}<span class="meida-span">消费后评价</span></h3>
+                                  <p class="media-p">{{comment.begin_date}}入住 | {{comment.ctime}}发表</p>
+                              </div>
+<!--                                  </div>-->
+<!--                              </div>-->
+
+                          </div>
+                          <div class="media-body">
+                              评价：{{comment.comment}}
+                          </div>
+                        </div>
                     </li>
                     {{/each}}
                 </ul>

@@ -221,7 +221,7 @@ def order_pay(order_id):
     order_string = alipay.api_alipay_trade_wap_pay(
         out_trade_no=order.id,
         total_amount=str(order.amount),
-        subject=u"短租平台 %s" % order.id,
+        subject=u"短租平台%s" % order.id,
         return_url="http://127.0.0.1:5000/payComplete.html",
         notify_url=None  # 可选, 不填则使用默认notify url
     )
