@@ -1,14 +1,15 @@
 from dz.models import User
+from dz.utils.yuntongxun.send_sms import SendSMS
 from . import api
 from flask import request, jsonify, current_app, session, make_response
 from dz.utils.response_code import RET
 import re
-from dz import redis_store, db
+from dz import db
 from dz import redis_store
 from dz.utils.captcha.captcha import captcha
 from config import settings
 import random
-from dz.utils.yuntongxun.send_sms import SendSMS
+from dz.utils.task.task_sms import task_send
 
 
 @api.route("/image_codes/<image_code_id>")
@@ -31,7 +32,7 @@ def get_image_code(image_code_id):
     return resp
 
 
-@api.route("/smscode/")
+@api.route("/smscode/", methods=["GET"])
 def send_sms():
     """
     发送短信验证码，并保存到redis，判断图片验证码的有效性,并删除原有图片验证码
@@ -84,6 +85,8 @@ def send_sms():
     except Exception as e:
         current_app.logger.error(e)
         return jsonify(errno=RET.DBERR, errmsg="保存短信验证码异常")
+
+    # 非异步发送短信
     try:
         sms = SendSMS()
         result = sms.send_template_sms(mobile, [sms_code, int(settings.SEND_SMS_CODE_INTERVAL/60)], 1)
@@ -94,6 +97,10 @@ def send_sms():
         return jsonify(errno=RET.OK, errmsg="发送成功")
     else:
         return jsonify(errno=RET.THIRDERR, errmsg="发送失败")
+
+    # 异步发送短信
+    # task_send.delay(mobile, [sms_code, int(settings.SEND_SMS_CODE_INTERVAL/60)], 1)
+    # return jsonify(errno=RET.OK, errmsg="发送成功")
 
 
 @api.route("/users", methods=["POST"])
